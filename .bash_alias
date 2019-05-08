@@ -17,4 +17,3 @@ alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
 ## source helper
 alias sit="source ~/.bashland/.bash_profile"
-alias z="ssh z@localhost"

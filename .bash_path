@@ -1,4 +1,4 @@
-export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$HOME/.rvm/bin:$PATH"
 
 export ANDROID_HOME="/Users/$HOME/Library/Android/sdk"
 
