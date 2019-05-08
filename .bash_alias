@@ -1,0 +1,20 @@
+# Bash Alias
+
+## ls
+alias l="ls -AG1"
+alias ls="ls -AG1l"
+
+## cd
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+## neovim
+alias vim="nvim"
+
+## tree
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+
+## source helper
+alias sit="source ~/.bashland/.bash_profile"
+alias z="ssh z@localhost"
