@@ -9,6 +9,13 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
+## shortcuts
+alias h="history"
+
+## time
+alias now="date +%T"
+alias nowdate="date +'%m-%d-%Y'"
+
 ## neovim
 alias vim="nvim"
 
@@ -25,4 +32,6 @@ alias matrix="cmatrix | lolcat"
 alias lmk="say 'Process Complete'"
 
 ## source helper
+alias gohit="cd ~/.bashland"
+alias hit="vim ~/.bashland/.bash_alias"
 alias sit="source ~/.bashland/.bash_profile"
