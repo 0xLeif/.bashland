@@ -9,9 +9,6 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-## neovim
-alias vim="nvim"
-
 ## man
 # TODO Issue
 # Cannot open man page /Applications/Xcode_10.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/share/man/../../../../System/Library/Filesystems/acfs.fs/Contents/man/man1/vidiomap.1.gz
@@ -23,6 +20,7 @@ alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 ## etc / fun
 alias matrix="cmatrix | lolcat"
 alias lmk="say 'Process Complete'"
+alias nf="clear;neofetch"
 
 ## source helper
 alias sit="source ~/.bashland/.bash_profile"
