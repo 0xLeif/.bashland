@@ -9,6 +9,13 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
+## shortcuts
+alias h="history"
+
+## time
+alias now="date +%T"
+alias nowdate="date +'%m-%d-%Y'"
+
 ## man
 # TODO Issue
 # Cannot open man page /Applications/Xcode_10.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/share/man/../../../../System/Library/Filesystems/acfs.fs/Contents/man/man1/vidiomap.1.gz
@@ -23,4 +30,6 @@ alias lmk="say 'Process Complete'"
 alias nf="clear;neofetch"
 
 ## source helper
+alias gohit="cd ~/.bashland"
+alias hit="vim ~/.bashland/.bash_alias"
 alias sit="source ~/.bashland/.bash_profile"
