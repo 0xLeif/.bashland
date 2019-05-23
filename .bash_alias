@@ -16,6 +16,20 @@ alias h="history"
 alias now="date +%T"
 alias nowdate="date +'%m-%d-%Y'"
 
+## Bundle
+alias bi="bundle install"
+alias be="bundle exec"
+
+## Git
+alias gc="git checkout"
+alias gcb="git checkout -b"
+alias ga="git add"
+alias gs="git status"
+alias gp="git push"
+
+## Notes
+alias notes="vim ~/.notes"
+
 ## man
 # TODO Issue
 # Cannot open man page /Applications/Xcode_10.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/share/man/../../../../System/Library/Filesystems/acfs.fs/Contents/man/man1/vidiomap.1.gz
