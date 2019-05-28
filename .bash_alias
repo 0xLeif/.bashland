@@ -28,7 +28,8 @@ alias gs="git status"
 alias gp="git push"
 
 ## Notes
-alias notes="vim ~/.notes"
+alias notes="vim ~/.notes.md"
+alias notespdf="pandoc ~/.notes.md -t beamer -o ~/.notes.pdf; open ~/.notes.pdf"
 
 ## man
 # TODO Issue
